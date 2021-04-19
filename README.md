@@ -1,4 +1,4 @@
-### Enironment
+### Environment
 A double jointed arm and a subspace represnts the goal. The objective is to maintain the end effector in contact with the goal as long as possible. A reward of 0.1 is given each time step both are in contact. The environment is offered in two versions namley one agent and 20 agents. The observation vector size is 33 per agent and the action space dimension is 4 per agent.
 The problem is considered to be solved when the mean of rewards over 100 consecutive episodes is larger than 30.
  
